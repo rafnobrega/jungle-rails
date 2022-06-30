@@ -1,0 +1,24 @@
+// Place all the styles related to the Product controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#signed-in {
+
+    display: flex;
+
+}
+
+#signed-in2 {
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
