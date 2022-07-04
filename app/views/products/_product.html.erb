@@ -9,12 +9,17 @@
   <div>
     <%# displays a "Sold out" badge if the quantity in stock is 0 %>
     <% if product.quantity == 0 %>
-    <span class="soldout">Sold Out</span> 
-    <% end %>
+        <span class="soldout">Sold Out</span> 
+        <%= button_to add_item_cart_path(product_id: product.id), class: 'btn disabled' ,
+        method: :post do %>
+        <%= fa_icon "shopping-cart", text: 'Add' %> 
+        <% end %>
+    <% else %>
 
-    <%= button_to add_item_cart_path(product_id: product.id), class: 'btn' ,
-    method: :post do %>
-      <%= fa_icon "shopping-cart", text: 'Add' %> 
+        <%= button_to add_item_cart_path(product_id: product.id), class: 'btn' ,
+        method: :post do %>
+        <%= fa_icon "shopping-cart", text: 'Add' %> 
+        <% end %>
     <% end %>
   </div>
 </article>
