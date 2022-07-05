@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-<p align="center">Jungle:<br>
+<p align="center">Home Page:<br>
   <img 
     src="https://i.ibb.co/0VTXYR5/screencapture-127-0-0-1-3000-2022-07-05-14-21-42.png"
   >
